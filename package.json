@@ -2,7 +2,7 @@
   "name": "liri-node-app",
   "version": "1.0.0",
   "description": "",
-  "main": "key.js",
+  "main": "liri.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/djambro44/liri-node-app/issues"
   },
-  "homepage": "https://github.com/djambro44/liri-node-app#readme"
+  "homepage": "https://github.com/djambro44/liri-node-app#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0"
+  }
 }
